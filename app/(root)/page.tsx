@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <h1>Here we go again</h1>
+      <h1>Here we go again update</h1>
     </main>
   );
 }
