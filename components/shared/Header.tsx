@@ -1,8 +1,6 @@
-import { SignedOut } from '@clerk/nextjs'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { Button } from '../ui/button'
 
 const Header = () => {
   return (
@@ -14,16 +12,6 @@ const Header = () => {
                 alt="Logo" 
                 />
             </Link>
-
-            <div className='flex w-32 justify-end gap-3'>
-              <SignedOut>
-                <Button asChild className='rounded-full ' size="lg">
-                  <Link href="/sign-in">
-                  Login
-                  </Link>
-                </Button>
-              </SignedOut>
-            </div>
         </div>
     </header>
   )
